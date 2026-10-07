@@ -201,15 +201,7 @@ img {
 .banner-card span,
 .story-card span {
   display: inline-block;
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--pink), var(--lavender));
-  color: var(--rose-deep);
-  font-weight: 800;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: 2.2rem;
   margin-bottom: 18px;
 }
 
@@ -348,12 +340,24 @@ img {
   margin-bottom: 22px;
 }
 
+.urdu-poetry {
+  background: rgba(255, 111, 166, 0.08);
+  border-left: 4px solid var(--rose);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 28px 0;
+  font-style: italic;
+  color: var(--rose-deep) !important;
+  line-height: 2;
+  font-weight: 600;
+}
+
 .signature {
   margin-top: 30px;
   color: var(--rose-deep) !important;
   font-weight: 700;
   font-family: "Cormorant Garamond", serif;
-  font-size: 2rem !important;
+  font-size: 1.8rem !important;
 }
 
 .site-footer {
